@@ -1,0 +1,31 @@
+<!--
+ * description       : Component to search Zipcode
+ * author            : jyothi.boddu@gmail.com
+ * group             : 
+ * last modified on  : 17-06-2023 
+ * last modified by  : jyothi.boddu@gmail.com
+ * Modifications Log 
+ * Ver   Date          Author                        Modification
+ * 1.0  17-06-2023     jyothi.boddu@gmail.com   Initial Version
+-->
+
+<template>
+    <div class="slds-m-top_medium slds-m-bottom_x-large">
+        <h2 class="slds-text-heading_medium slds-m-bottom_medium">
+            Please enter the Zipcode to get the details
+        </h2>
+        <div  class="slds-p-around_medium lgc-bg">
+            <lightning-input data-id="zipcode" type="text" name="zipcode" label="Enter Zipcode" placeholder="type here...">
+
+            </lightning-input>
+        </div>
+
+            <!-- Brand variant: Identifies the primary action in a group of buttons -->
+        <lightning-button variant="brand" label="Search" title="Search" onclick={handleClick} class="slds-align_absolute-center">
+
+        </lightning-button>
+
+        
+
+    </div>        
+</template>

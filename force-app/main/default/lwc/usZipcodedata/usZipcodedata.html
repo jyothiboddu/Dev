@@ -1,0 +1,24 @@
+<!--
+ * description       : Component to search Zipcode
+ * author            : jyothi.boddu@gmail.com
+ * group             : 
+ * last modified on  : 17-06-2023 
+ * last modified by  : jyothi.boddu@gmail.com
+ * Modifications Log 
+ * Ver   Date          Author                        Modification
+ * 1.0  17-06-2023     jyothi.boddu@gmail.com   Initial Version
+-->
+
+
+<template>
+ <h2> Response Data </h2>
+    <!---   Navigated from LWC with property Value is : {propertyValue}
+
+    country : {propertyValue.country} -->
+
+
+    <template for:each={propertyValue} for:item="prdt">
+             {prdt}
+    </template>
+
+</template>
